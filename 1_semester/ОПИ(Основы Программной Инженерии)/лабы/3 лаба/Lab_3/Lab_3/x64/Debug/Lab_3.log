@@ -1,0 +1,31 @@
+﻿Сборка начата 24.09.2024 22:54:40.
+Уровень детализации журнала: Normal.     1>Проект "D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\Lab_3\Lab_3.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\Lab_3.tlog\unsuccessfulbuild".
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "G:\vcpkg-master\installed\x64-windows\"
+         Using normalized configuration "Debug"
+       ClCompile:
+         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /I"G:\vcpkg-master\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt lab03.cpp
+         lab03.cpp
+       Link:
+         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.exe" /INCREMENTAL /ILK:"x64\Debug\Lab_3.ilk" /NOLOGO /LIBPATH:"G:\vcpkg-master\installed\x64-windows\debug\lib" /LIBPATH:"G:\vcpkg-master\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "G:\vcpkg-master\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.lib" /MACHINE:X64 x64\Debug\lab03.obj
+         Lab_3.vcxproj -> D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\Lab_3.tlog\Lab_3.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
+         "pwsh.exe" не является внутренней или внешней
+         командой, исполняемой программой или пакетным файлом.
+         Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\Lab_3.tlog\Lab_3.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"" с кодом 9009.
+         "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\Lab_3.tlog\Lab_3.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Lab_3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Lab_3.tlog\Lab_3.lastbuildstate".
+     1>Сборка проекта "D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\Lab_3\Lab_3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:04.54
