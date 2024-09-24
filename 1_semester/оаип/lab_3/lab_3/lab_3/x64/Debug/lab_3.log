@@ -1,0 +1,53 @@
+﻿Сборка начата 21.09.2024 14:18:29.
+Уровень детализации журнала: Normal.     1>Проект "D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\lab_3.vcxproj" в узле 2 (целевые объекты Build).
+     1>G:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lab_3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\makarevi.606a159d.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\makarevi.606a159d.tlog\unsuccessfulbuild".
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "G:\vcpkg-master\installed\x64-windows\"
+         Using normalized configuration "Debug"
+       ClCompile:
+         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /I"G:\vcpkg-master\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt 12.cpp
+         12.cpp
+     1>D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(4,20): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(14,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(19,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(22,13): warning C4305: инициализация: усечение из "double" в "float"
+     1>D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(22,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(27,8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+       Link:
+         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1_course\1_semester\оаип\lab_3\lab_3\x64\Debug\makarevich_kirill_lab3.exe" /INCREMENTAL /ILK:"x64\Debug\makarevich_kirill_lab3.ilk" /NOLOGO /LIBPATH:"G:\vcpkg-master\installed\x64-windows\debug\lib" /LIBPATH:"G:\vcpkg-master\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "G:\vcpkg-master\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1_course\1_semester\оаип\lab_3\lab_3\x64\Debug\makarevich_kirill_lab3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1_course\1_semester\оаип\lab_3\lab_3\x64\Debug\makarevich_kirill_lab3.lib" /MACHINE:X64 x64\Debug\12.obj
+         lab_3.vcxproj -> D:\1_course\1_semester\оаип\lab_3\lab_3\x64\Debug\makarevich_kirill_lab3.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\оаип\lab_3\lab_3\x64\Debug\makarevich_kirill_lab3.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\makarevi.606a159d.tlog\makarevich_kirill_lab3.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
+         "pwsh.exe" не является внутренней или внешней
+         командой, исполняемой программой или пакетным файлом.
+         Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\оаип\lab_3\lab_3\x64\Debug\makarevich_kirill_lab3.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\makarevi.606a159d.tlog\makarevich_kirill_lab3.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"" с кодом 9009.
+         "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\оаип\lab_3\lab_3\x64\Debug\makarevich_kirill_lab3.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\makarevi.606a159d.tlog\makarevich_kirill_lab3.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Файл "x64\Debug\makarevi.606a159d.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\makarevi.606a159d.tlog\makarevich_kirill_lab3.lastbuildstate".
+     1>Сборка проекта "D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\lab_3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\lab_3.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         G:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lab_3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\lab_3.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(4,20): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+         D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(14,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+         D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(19,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(22,13): warning C4305: инициализация: усечение из "double" в "float"
+         D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(22,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+         D:\1_course\1_semester\оаип\lab_3\lab_3\lab_3\12.cpp(27,8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+
+    Предупреждений: 7
+    Ошибок: 0
+
+Прошло времени 00:00:02.06

@@ -1,0 +1,37 @@
+﻿Сборка начата 13.09.2024 15:06:59.
+Уровень детализации журнала: Normal.     1>Проект "D:\опи\1 пара\1 лаба\Hello World\lab_2\lab_2.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Release\lab_2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Release\lab_2.tlog\unsuccessfulbuild".
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "G:\vcpkg-master\installed\x64-windows\"
+         Using normalized configuration "Release"
+       ClCompile:
+         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /I"G:\vcpkg-master\installed\x64-windows\include" /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt lab02.cpp
+         lab02.cpp
+       Link:
+         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\опи\1 пара\1 лаба\Hello World\x64\Release\lab_2.exe" /NOLOGO /LIBPATH:"G:\vcpkg-master\installed\x64-windows\lib" /LIBPATH:"G:\vcpkg-master\installed\x64-windows\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "G:\vcpkg-master\installed\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\опи\1 пара\1 лаба\Hello World\x64\Release\lab_2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"x64\Release\lab_2.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\опи\1 пара\1 лаба\Hello World\x64\Release\lab_2.lib" /MACHINE:X64 x64\Release\lab02.obj
+         Создание кода
+         2 of 11 functions (18.2%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Создание кода завершено
+         lab_2.vcxproj -> D:\опи\1 пара\1 лаба\Hello World\x64\Release\lab_2.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\опи\1 пара\1 лаба\Hello World\x64\Release\lab_2.exe" "G:\vcpkg-master\installed\x64-windows\bin" "x64\Release\lab_2.tlog\lab_2.write.1u.tlog" "x64\Release\vcpkg.applocal.log"
+         "pwsh.exe" не является внутренней или внешней
+         командой, исполняемой программой или пакетным файлом.
+         Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\опи\1 пара\1 лаба\Hello World\x64\Release\lab_2.exe" "G:\vcpkg-master\installed\x64-windows\bin" "x64\Release\lab_2.tlog\lab_2.write.1u.tlog" "x64\Release\vcpkg.applocal.log"" с кодом 9009.
+         "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\опи\1 пара\1 лаба\Hello World\x64\Release\lab_2.exe" "G:\vcpkg-master\installed\x64-windows\bin" "x64\Release\lab_2.tlog\lab_2.write.1u.tlog" "x64\Release\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Файл "x64\Release\lab_2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\lab_2.tlog\lab_2.lastbuildstate".
+     1>Сборка проекта "D:\опи\1 пара\1 лаба\Hello World\lab_2\lab_2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:04.39
