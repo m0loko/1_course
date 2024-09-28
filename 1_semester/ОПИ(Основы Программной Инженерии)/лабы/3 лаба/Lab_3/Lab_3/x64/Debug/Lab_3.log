@@ -1,4 +1,4 @@
-﻿Сборка начата 27.09.2024 00:19:57.
+﻿Сборка начата 27.09.2024 15:17:41.
 Уровень детализации журнала: Normal.     1>Проект "D:\1_course\1_semester\ОПИ(Основы Программной Инженерии)\лабы\3 лаба\Lab_3\Lab_3\Lab_3.vcxproj" в узле 2 (целевые объекты Build).
      1>PrepareForBuild:
          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
@@ -20,8 +20,6 @@
          командой, исполняемой программой или пакетным файлом.
          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\ОПИ(Основы Программной Инженерии)\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\Lab_3.tlog\Lab_3.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"" с кодом 9009.
          "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\ОПИ(Основы Программной Инженерии)\лабы\3 лаба\Lab_3\x64\Debug\Lab_3.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\Lab_3.tlog\Lab_3.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
-       TlogCleanup:
-         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: D:\1_course\1_semester\опи\лабы\3 лаба\Lab_3\Lab_3\lab03.cpp.
        FinalizeBuildStatus:
          Файл "x64\Debug\Lab_3.tlog\unsuccessfulbuild" удаляется.
          Обращение к "x64\Debug\Lab_3.tlog\Lab_3.lastbuildstate".
@@ -31,4 +29,4 @@
     Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:03.82
+Прошло времени 00:00:02.57

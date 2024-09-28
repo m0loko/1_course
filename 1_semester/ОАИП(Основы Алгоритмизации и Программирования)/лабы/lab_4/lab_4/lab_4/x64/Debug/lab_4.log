@@ -1,5 +1,5 @@
-﻿Сборка начата 25.09.2024 00:03:45.
-Уровень детализации журнала: Normal.     1>Проект "D:\1_course\1_semester\оаип\lab_4\lab_4\lab_4\lab_4.vcxproj" в узле 2 (целевые объекты Build).
+﻿Сборка начата 28.09.2024 13:50:59.
+Уровень детализации журнала: Normal.     1>Проект "D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\lab_4\lab_4.vcxproj" в узле 2 (целевые объекты Build).
      1>PrepareForBuild:
          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
        InitializeBuildStatus:
@@ -9,30 +9,24 @@
          Using triplet "x64-windows" from "G:\vcpkg-master\installed\x64-windows\"
          Using normalized configuration "Debug"
        ClCompile:
-         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /I"G:\vcpkg-master\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt lab_4.cpp
-         lab_4.cpp
-     1>D:\1_course\1_semester\оаип\lab_4\lab_4\lab_4\lab_4.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /I"G:\vcpkg-master\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
+         main.cpp
        Link:
-         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1_course\1_semester\оаип\lab_4\lab_4\x64\Debug\lab_4.exe" /INCREMENTAL /ILK:"x64\Debug\lab_4.ilk" /NOLOGO /LIBPATH:"G:\vcpkg-master\installed\x64-windows\debug\lib" /LIBPATH:"G:\vcpkg-master\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "G:\vcpkg-master\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1_course\1_semester\оаип\lab_4\lab_4\x64\Debug\lab_4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1_course\1_semester\оаип\lab_4\lab_4\x64\Debug\lab_4.lib" /MACHINE:X64 x64\Debug\lab_4.obj
-         lab_4.vcxproj -> D:\1_course\1_semester\оаип\lab_4\lab_4\x64\Debug\lab_4.exe
+         G:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\x64\Debug\lab_4.exe" /INCREMENTAL /ILK:"x64\Debug\lab_4.ilk" /NOLOGO /LIBPATH:"G:\vcpkg-master\installed\x64-windows\debug\lib" /LIBPATH:"G:\vcpkg-master\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "G:\vcpkg-master\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\x64\Debug\lab_4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\x64\Debug\lab_4.lib" /MACHINE:X64 x64\Debug\main.obj
+         lab_4.vcxproj -> D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\x64\Debug\lab_4.exe
        AppLocalFromInstalled:
-         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\оаип\lab_4\lab_4\x64\Debug\lab_4.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\lab_4.tlog\lab_4.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\x64\Debug\lab_4.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\lab_4.tlog\lab_4.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
          "pwsh.exe" не является внутренней или внешней
          командой, исполняемой программой или пакетным файлом.
-         Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\оаип\lab_4\lab_4\x64\Debug\lab_4.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\lab_4.tlog\lab_4.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"" с кодом 9009.
-         "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\оаип\lab_4\lab_4\x64\Debug\lab_4.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\lab_4.tlog\lab_4.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
+         Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\x64\Debug\lab_4.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\lab_4.tlog\lab_4.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"" с кодом 9009.
+         "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "G:\vcpkg-master\scripts\buildsystems\msbuild\applocal.ps1" "D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\x64\Debug\lab_4.exe" "G:\vcpkg-master\installed\x64-windows\debug\bin" "x64\Debug\lab_4.tlog\lab_4.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
        FinalizeBuildStatus:
          Файл "x64\Debug\lab_4.tlog\unsuccessfulbuild" удаляется.
          Обращение к "x64\Debug\lab_4.tlog\lab_4.lastbuildstate".
-     1>Сборка проекта "D:\1_course\1_semester\оаип\lab_4\lab_4\lab_4\lab_4.vcxproj" завершена (целевые объекты Build).
+     1>Сборка проекта "D:\1_course\1_semester\ОАИП(Основы Алгоритмизации и Программирования)\лабы\lab_4\lab_4\lab_4\lab_4.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
-
-       "D:\1_course\1_semester\оаип\lab_4\lab_4\lab_4\lab_4.vcxproj" (целевой объект Build ) (1) ->
-       (Целевой объект ClCompile) -> 
-         D:\1_course\1_semester\оаип\lab_4\lab_4\lab_4\lab_4.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-
-    Предупреждений: 1
+    Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:01.19
+Прошло времени 00:00:01.44

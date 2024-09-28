@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\1_course\\1_semester\\\u043E\u0430\u0438\u043F\\lab_4\\lab_4\\",
+  "WorkspaceRootPath": "D:\\1_course\\1_semester\\\u041E\u0410\u0418\u041F(\u041E\u0441\u043D\u043E\u0432\u044B \u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F)\\\u043B\u0430\u0431\u044B\\lab_4\\lab_4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{267C57C1-11F8-4CA9-B590-066BF5AB40C5}|lab_4\\lab_4.vcxproj|D:\\1_course\\1_semester\\\u043E\u0430\u0438\u043F\\lab_4\\lab_4\\lab_4\\lab_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{267C57C1-11F8-4CA9-B590-066BF5AB40C5}|lab_4\\lab_4.vcxproj|solutionrelative:lab_4\\lab_4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CCC0DED5-C1FE-4BED-9716-1FADB483AD92}|lab_4\\lab_4.vcxproj|D:\\1_course\\1_semester\\\u041E\u0410\u0418\u041F(\u041E\u0441\u043D\u043E\u0432\u044B \u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F)\\\u043B\u0430\u0431\u044B\\lab_4\\lab_4\\lab_4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CCC0DED5-C1FE-4BED-9716-1FADB483AD92}|lab_4\\lab_4.vcxproj|solutionrelative:lab_4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "lab_4.cpp",
-              "DocumentMoniker": "D:\\1_course\\1_semester\\\u043E\u0430\u0438\u043F\\lab_4\\lab_4\\lab_4\\lab_4.cpp",
-              "RelativeDocumentMoniker": "lab_4\\lab_4.cpp",
-              "ToolTip": "D:\\1_course\\1_semester\\\u043E\u0430\u0438\u043F\\lab_4\\lab_4\\lab_4\\lab_4.cpp",
-              "RelativeToolTip": "lab_4\\lab_4.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\1_course\\1_semester\\\u041E\u0410\u0418\u041F(\u041E\u0441\u043D\u043E\u0432\u044B \u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F)\\\u043B\u0430\u0431\u044B\\lab_4\\lab_4\\lab_4\\main.cpp",
+              "RelativeDocumentMoniker": "lab_4\\main.cpp",
+              "ToolTip": "D:\\1_course\\1_semester\\\u041E\u0410\u0418\u041F(\u041E\u0441\u043D\u043E\u0432\u044B \u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0438\u0437\u0430\u0446\u0438\u0438 \u0438 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F)\\\u043B\u0430\u0431\u044B\\lab_4\\lab_4\\lab_4\\main.cpp",
+              "RelativeToolTip": "lab_4\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-24T20:25:22.565Z",
+              "WhenOpened": "2024-09-28T10:17:27.346Z",
               "EditorCaption": ""
             }
           ]
