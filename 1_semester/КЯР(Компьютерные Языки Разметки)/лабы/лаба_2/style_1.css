@@ -20,15 +20,6 @@ h1,h2,h3,h4,h5,h6{
 table td{
     background-color: yellow;
 }
-table th{
-    background-color: yellow;
-}
-
-
-
-
-
-
 /*
 тут не по заданию , но нужно для нормального отображения страницы
 */
@@ -50,9 +41,6 @@ th{
    }
    .end{
        border: 1px solid black; border-collapse: collapse; padding: 5px; text-align: right;
-   }
-   .task{
-       text-align: center; margin-top: 1%; color: black;
    }
    .tasks{
        margin-left: 40px;
