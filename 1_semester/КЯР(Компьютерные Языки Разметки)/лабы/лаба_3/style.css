@@ -74,7 +74,7 @@ ol li:before {
     color: blue;
 }
 
-p:first-line { 
+.last:first-line { 
     color: red;
     text-indent: 25px;
 }
